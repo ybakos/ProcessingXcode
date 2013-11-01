@@ -25,19 +25,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		F9E9AABE1822EA91006A93BD /* JavaProject */ = {
+		F9E9AABE1822EA91006A93BD /* ProcessingSketch */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "";
-			buildConfigurationList = F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "JavaProject" */;
+			buildConfigurationList = F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "ProcessingSketch" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/ant/bin/ant;
 			buildWorkingDirectory = "$(PROJECT_DIR)";
 			dependencies = (
 			);
-			name = JavaProject;
+			name = ProcessingSketch;
 			passBuildSettingsInEnvironment = 1;
-			productName = JavaProject;
+			productName = ProcessingSketch;
 		};
 /* End PBXLegacyTarget section */
 
@@ -48,7 +48,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Human-Oriented Systems";
 			};
-			buildConfigurationList = F9E9AABD1822EA91006A93BD /* Build configuration list for PBXProject "JavaProject" */;
+			buildConfigurationList = F9E9AABD1822EA91006A93BD /* Build configuration list for PBXProject "ProcessingSketch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -59,7 +59,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9E9AABE1822EA91006A93BD /* JavaProject */,
+				F9E9AABE1822EA91006A93BD /* ProcessingSketch */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +141,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProcessingSketch;
 			};
 			name = Debug;
 		};
@@ -150,14 +150,14 @@
 			buildSettings = {
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProcessingSketch;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9E9AABD1822EA91006A93BD /* Build configuration list for PBXProject "JavaProject" */ = {
+		F9E9AABD1822EA91006A93BD /* Build configuration list for PBXProject "ProcessingSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E9AABF1822EA91006A93BD /* Debug */,
@@ -166,7 +166,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "JavaProject" */ = {
+		F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "ProcessingSketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E9AAC21822EA91006A93BD /* Debug */,
