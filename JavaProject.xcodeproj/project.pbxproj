@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		F90622B8182348CD0089652F /* Sketch.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Sketch.java; path = src/Sketch.java; sourceTree = "<group>"; };
 		F9E9AAC41822EAE7006A93BD /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
 		F9E9AAC51822EB8C006A93BD /* Main.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Main.java; path = src/Main.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -15,6 +16,7 @@
 		F9E9AAB91822EA91006A93BD = {
 			isa = PBXGroup;
 			children = (
+				F90622B8182348CD0089652F /* Sketch.java */,
 				F9E9AAC51822EB8C006A93BD /* Main.java */,
 				F9E9AAC41822EAE7006A93BD /* build.xml */,
 			);
