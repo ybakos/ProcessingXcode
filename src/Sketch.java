@@ -11,7 +11,7 @@ public class Sketch extends PApplet {
     public void setup() {
         size(400, 400);
         background(0);
-        circle = new Circle(this, width / 2, height / 2, 100);
+        circle = new Circle(this, width / 2, height / 2, 100, color(0, 200, 100), color(0, 200, 100, 50));
     }
 
     public void draw() {
