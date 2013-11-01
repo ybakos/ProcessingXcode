@@ -8,6 +8,8 @@
 
 /* Begin PBXFileReference section */
 		F90622B8182348CD0089652F /* Sketch.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Sketch.java; path = src/Sketch.java; sourceTree = "<group>"; };
+		F914AB1218235E6300788FD8 /* Drawable.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Drawable.java; path = src/Drawable.java; sourceTree = "<group>"; };
+		F914AB1318235EB200788FD8 /* Circle.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Circle.java; path = src/Circle.java; sourceTree = "<group>"; };
 		F9E9AAC41822EAE7006A93BD /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
 		F9E9AAC51822EB8C006A93BD /* Main.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Main.java; path = src/Main.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -17,6 +19,8 @@
 			isa = PBXGroup;
 			children = (
 				F90622B8182348CD0089652F /* Sketch.java */,
+				F914AB1218235E6300788FD8 /* Drawable.java */,
+				F914AB1318235EB200788FD8 /* Circle.java */,
 				F9E9AAC51822EB8C006A93BD /* Main.java */,
 				F9E9AAC41822EAE7006A93BD /* build.xml */,
 			);
