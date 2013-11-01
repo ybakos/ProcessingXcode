@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		F9E9AAC41822EAE7006A93BD /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		F9E9AAC51822EB8C006A93BD /* Main.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Main.java; path = src/Main.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		F9E9AAB91822EA91006A93BD = {
 			isa = PBXGroup;
 			children = (
+				F9E9AAC51822EB8C006A93BD /* Main.java */,
+				F9E9AAC41822EAE7006A93BD /* build.xml */,
 			);
 			sourceTree = "<group>";
 		};
@@ -18,11 +25,12 @@
 /* Begin PBXLegacyTarget section */
 		F9E9AABE1822EA91006A93BD /* JavaProject */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
+			buildArgumentsString = "";
 			buildConfigurationList = F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "JavaProject" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/local/ant/bin/ant;
+			buildWorkingDirectory = "$(PROJECT_DIR)";
 			dependencies = (
 			);
 			name = JavaProject;
@@ -154,7 +162,7 @@
 				F9E9AAC01822EA91006A93BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F9E9AAC11822EA91006A93BD /* Build configuration list for PBXLegacyTarget "JavaProject" */ = {
 			isa = XCConfigurationList;
@@ -163,6 +171,7 @@
 				F9E9AAC31822EA91006A93BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
