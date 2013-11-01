@@ -6,6 +6,13 @@
     <property name="src" location="src" />
     <property name="build" location="build" />
     <property name="dist"  location="dist" />
+    <property name="lib"  location="lib" />
+
+    <path id="build-classpath">
+        <fileset dir="${lib}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
     
     <target name="init">
         <!-- Create the time stamp -->
@@ -16,7 +23,9 @@
     
     <target name="compile" depends="init" description="compile the source ">
         <!-- Compile the java code from ${src} into ${build} -->
-        <javac srcdir="${src}" destdir="${build}" includeantruntime="false" />
+        <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+            <classpath refid="build-classpath" />
+        </javac>
     </target>
     
     <target name="dist" depends="compile" description="generate the distribution">
@@ -24,10 +33,6 @@
         <mkdir dir="${dist}/lib" />
         <!-- Put everything in ${build} into the ${ant.project.name}-${DSTAMP}.jar file -->
         <jar jarfile="${dist}/lib/${ant.project.name}-${DSTAMP}.jar" basedir="${build}" />
-    </target>
-    
-    <target name="run" depends="compile" description="run this fucker">
-        <!-- todo -->
     </target>
     
     <target name="clean" description="clean up">

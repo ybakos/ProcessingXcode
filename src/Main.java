@@ -1,6 +1,8 @@
 // Yong Bakos
 // An example Main class.
 
+import processing.core.*;
+
 public class Main {
 
     public static void main(String[] args) {
