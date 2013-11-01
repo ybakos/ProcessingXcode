@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:JavaProject.xcodeproj">
+      location = "self:ProcessingSketch.xcodeproj">
    </FileRef>
 </Workspace>

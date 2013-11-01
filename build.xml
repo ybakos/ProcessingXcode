@@ -1,5 +1,5 @@
 <!-- http://ant.apache.org/manual/using.html -->
-<project name="JavaProject" default="dist" basedir=".">
+<project name="ProcessingSketch" default="dist" basedir=".">
     <description>
         Default ant buildfile.
     </description>
